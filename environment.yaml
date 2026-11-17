@@ -1,0 +1,23 @@
+name: cloakhat
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - pytorch3d
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch
+  - ipykernel
+  - pytorch3d
+  - pytorch-cuda=11.8
+  - pip
+  - pip:
+    - ultralytics
+    - sahi
+    - opencv-python-headless
+    - matplotlib
+    - tqdm
+    - numpy
+    - pandas
+    - reportlab
