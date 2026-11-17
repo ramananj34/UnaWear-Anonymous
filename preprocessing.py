@@ -1148,7 +1148,7 @@ def create_fallback_segments(video_files, df):
 # CLI
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Preprocess DJI drone footage for CloakHat pipeline')
+    parser = argparse.ArgumentParser(description='Preprocess DJI drone footage for UnaWear pipeline')
     parser.add_argument('--raw', type=str, default=str(RAW_DIR), help='Directory with MP4s and flight log CSV')
     parser.add_argument('--output', type=str, default=str(OUTPUT_DIR), help='Output directory for dataset')
     parser.add_argument('--fps', type=int, default=EXTRACT_FPS, help='Frame extraction rate (frames/sec)')
